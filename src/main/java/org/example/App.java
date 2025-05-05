@@ -20,7 +20,7 @@ public class App {
             }
             String htmlContent = htmlContentBuilder.toString();
 
-            String outputPdfPath = "mm.pdf"; // Output file path
+            String outputPdfPath = "new.pdf"; // Output file path
             convertHtmlToPdf(htmlContent, outputPdfPath);
             System.out.println("PDF conversion completed successfully. Saved as: " + outputPdfPath);
         } catch (Exception e) {
